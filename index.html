@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Voting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Vote for the Best Project!</h1>
+    <p class="subtitle">Choose your favorite participant below 👇</p>
+
+    <div class="participant-card">
+      <h2>Participant A</h2>
+      <p class="project-desc">🌐 Project A is a web-based voting system using blockchain for transparency.</p>
+      <div class="button-row">
+        <button onclick="vote('A')">✨ Vote Participant A</button>
+        <a href="https://projectA-link.com" target="_blank">🔗 View Project</a>
+      </div>
+      <p id="votes-A">Votes: 0</p>
+    </div>
+
+    <div class="participant-card">
+      <h2>Participant B</h2>
+      <p class="project-desc">📱 Project B is a mobile app to manage student attendance with real-time analytics.</p>
+      <div class="button-row">
+        <button onclick="vote('B')">🔥 Vote Participant B</button>
+        <a href="https://projectB-link.com" target="_blank">🔗 View Project</a>
+      </div>
+      <p id="votes-B">Votes: 0</p>
+    </div>
+
+    <div class="participant-card">
+      <h2>Participant C</h2>
+      <p class="project-desc">🤖 Project C is an AI chatbot that helps users learn programming interactively.</p>
+      <div class="button-row">
+        <button onclick="vote('C')">🚀 Vote Participant C</button>
+        <a href="https://projectC-link.com" target="_blank">🔗 View Project</a>
+      </div>
+      <p id="votes-C">Votes: 0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
